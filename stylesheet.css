@@ -1,0 +1,190 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    height: 60px;
+    margin-top: 8px;
+    width: 100%;
+    position: relative;
+}
+
+.lmenu {
+    float: left;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.rmenu {
+    float: right;
+    display: inline-block;
+    width: 222px;
+}
+
+.lmenu a {
+    padding-left: 12px;
+}
+
+.rmenu .rmenu_words {
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    float: left;
+}
+
+.rmenu .rmenu_words a {
+    padding-left: 11px;
+}
+
+.rmenu .rmenu_other {
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: 0;
+    padding-right: 28px;
+    height: 50px;
+}
+
+.rmenu img {
+    width: 32px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+
+}
+
+.rmenu .boxes {
+    border-radius: 0;
+    opacity: 0.5;
+    padding-right: 15px;
+    margin-bottom: 6px;
+    width: 19px;
+
+}
+
+.boxes:hover {
+    opacity: 0.75;
+}
+
+.rmenu .avatar {
+    margin: 7px 0 0 0;
+}
+
+.rmenu .avatar-link {
+    opacity: 1;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo .google-logo {
+    display: block;
+    margin: auto;
+    height: 92px;
+    padding-top: 88px;
+}
+
+.searchform {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.searchform .searchinput {
+    display: block;
+    margin: auto;
+    height: 45px;
+    width: 480px;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+    border-width: 1px;
+}
+
+.searchinput:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.buttons {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+button {
+    padding: 8px 15px 8px 15px;
+    margin: 30px 5px 10px 5px;
+    border: none;
+    opacity: 0.75;
+    font-size: 14px;
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    line-height: 0;
+    height: 36px;
+    min-width: 54px;
+    border-radius: 4px;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+    padding: 12px;
+    color: #70757a;
+    opacity: 1;
+}
+
+.left-footer {
+    float: left;
+    margin-left: 17px;
+
+}
+
+.right-footer {
+    margin-right: 17px;
+    float: right;
+}

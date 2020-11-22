@@ -1,0 +1,1 @@
+This is a recreation of the Google homepage in basic HTML & CSS, following tutorials from The Odin Project.
