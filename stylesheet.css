@@ -119,7 +119,7 @@ a:hover {
     display: block;
     margin: auto;
     height: 45px;
-    width: 480px;
+    width: 580px;
     border-radius: 50px;
     border: 1px solid #dfe1e5;
     border-width: 1px;
@@ -128,6 +128,38 @@ a:hover {
 .searchinput:hover {
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
     border-color: rgba(223,225,229,0);
+}
+
+.searchicon {
+    display: inline;
+    position: relative;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    opacity: 0.3;
+}
+
+.searchmicrophone {
+    display: inline;
+    position: relative;
+    font-size: 18px;
+    width: 30px;
+    top: 2px;
+    height: 30px;
+    opacity: 0.4;
+}
+
+.insidesearch {
+    width: 490px;
+    font-size: 15px;
+    height: 40px;
+    position: relative;
+    margin-left: 30px;
+    border: none;
+}
+
+.insidesearch:active, .insidesearch:focus {
+    outline: none;
 }
 
 .buttons {
